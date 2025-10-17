@@ -4,6 +4,18 @@ body {
   background-color: #f5f5f5;
   color: #333;
 }
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* Adjust height as needed */
+  background-color: #ffffff; /* White background */
+}
+
+.center-logo {
+  max-width: 200px;
+  height: auto;
+}
 
 header {
   background-color: #333;
