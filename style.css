@@ -16,6 +16,30 @@ body {
   max-width: 200px;
   height: auto;
 }
+.video-background {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  color: white;
+}
+
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.welcome-overlay {
+  position: relative;
+  padding: 60px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional dark overlay for readability */
+  color: white;
+}
 
 header {
   background-color: #333;
