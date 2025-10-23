@@ -22,6 +22,33 @@
         <option value="local-trip">Local Trip</option>
         <option value="long-distance">Long-Distance</option>
       </select>
+<div class="quotation-container">
+  <h1>Request a Quotation</h1>
+  <form method="post" action="submit_quotation.php" class="quotation-form">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="pickup">Pickup Location</label>
+    <input type="text" id="pickup" name="pickup" required>
+
+    <label for="drop">Drop Location</label>
+    <input type="text" id="drop" name="drop" required>
+
+    <label for="date">Date</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="time">Time</label>
+    <input type="time" id="time" name="time" required>
+
+    <button type="submit">Get Quotation</button>
+  </form>
+</div>
 
       <label for="details">Additional Details</label>
       <textarea name="details" rows="4"></textarea>
