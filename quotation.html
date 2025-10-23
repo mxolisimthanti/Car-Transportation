@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Request a Quotation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section id="quotation">
+    <h2>Request a Quotation</h2>
+    <form name="quote" method="POST" data-netlify="true">
+      <label for="name">Full Name</label>
+      <input type="text" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" required>
+
+      <label for="service">Service Type</label>
+      <select name="service">
+        <option value="half-day">Half-Day</option>
+        <option value="full-day">Full-Day</option>
+        <option value="local-trip">Local Trip</option>
+        <option value="long-distance">Long-Distance</option>
+      </select>
+
+      <label for="details">Additional Details</label>
+      <textarea name="details" rows="4"></textarea>
+
+      <input type="submit" value="Submit Request">
+    </form>
+  </section>
+</body>
+</html>
